@@ -2,6 +2,12 @@
 
 This application demonstrates a violation of C++'s One Definition Rule. It's primary purpose is as a testbed to grok clang's AddressSanitizer.
 
+# How to Run
+
+This setup has only been tested on macOS, but may run on other POSIX-compliant systems where clang/ASan is installed.
+
+The top-level `run.sh` script should compile, link, and run the example application that contains the ODR violation.
+
 # Helpful Links
 
 - https://clang.llvm.org/docs/AddressSanitizer.html
